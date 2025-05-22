@@ -1,0 +1,8 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+target/
+
+# Системные
+*.log
