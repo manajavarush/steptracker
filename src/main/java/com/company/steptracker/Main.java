@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Кодировка консоли: " + System.getProperty("file.encoding"));
-
         var scanner = new Scanner(System.in);
         var stepTracker = new StepTracker(scanner);
 
